@@ -40,7 +40,7 @@ test_gt_real
 └── 000421.mat
 ```
 
-Of course, datasets _train_in_, _train_gt_, _test_in_ and _test_gt_ can also be obtained by running _dataset_generation.m_ with MATLAB , whose parameters can be adjusted according to actual needs. (The size range of the noise can be controlled by modifying the parameter _noise_max_.)
+Of course, datasets _train_in_, _train_gt_, _test_in_ and _test_gt_ can also be obtained by running _dataset_generation.m_ with MATLAB , whose parameters can be adjusted according to actual needs. (The size range of the noise can be controlled by adjusting the parameter _noise_max_.)
 
 ## Network traning
 Run _main_train.py_ to start training the neural network.
