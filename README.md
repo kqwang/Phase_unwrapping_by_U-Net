@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-Download dataset from [here](https://figshare.com/s/685e972475221aa3b4c4) to the current path and unzip. The file structure is the following:
+Download dataset (without noise) from [here](https://figshare.com/s/685e972475221aa3b4c4) to the current path and unzip. The file structure is the following:
 ```
 train_in
 └── 000001.mat
@@ -40,7 +40,7 @@ test_gt_real
 └── 000421.mat
 ```
 
-Of course, datasets _train_in_, _train_gt_, _test_in_ and _test_gt_ can also be obtained by running _dataset_generation.m_ with MATLAB, whose parameters can be adjusted according to actual needs. 
+Of course, datasets _train_in_, _train_gt_, _test_in_ and _test_gt_ can also be obtained by running _dataset_generation.m_ with MATLAB , whose parameters can be adjusted according to actual needs. (The size range of the noise can be controlled by modifying the parameter _noise_max_.)
 
 ## Network traning
 Run _main_train.py_ to start training the neural network.
