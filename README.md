@@ -1,5 +1,6 @@
 # Deep learning phase unwrapping with a U-Net
-A demonstrate of "Deep learning spatial phase unwrapping: a comparative review" (in progress).
+A demonstrate of ["Deep learning spatial phase unwrapping: a comparative review"](https://doi.org/10.1117/1.APN.1.1.014001) and ["One-step robust deep learning phase unwrapping"](https://doi.org/10.1364/OE.27.015100).
+
 
 ## Preparation
 1. [Install CUDA](https://developer.nvidia.com/cuda-downloads)
