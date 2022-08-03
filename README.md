@@ -59,3 +59,5 @@ python main_test.py
 ## Error statistics
 Run _error_evaluation.m_ with MATLAB to calculate RMSEs for each test result.
 
+## More informarion
+Details about the code and dataset can be found in this [paper](https://doi.org/10.1117/1.APN.1.1.014001) and its Supplementary Materials.
